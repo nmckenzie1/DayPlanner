@@ -46,12 +46,7 @@ $("#reset").click(resetfunction);
 function resetfunction(){
 	localStorage.clear();
 	$('.textarea').each(function() {
-	$(this).text("");
-	$(this).find("input[type=text], textarea").val("");})
+	$(this).val("");
+	})
 	
 }
-// 	localStorage.clear();
-
-
-	
-// })
